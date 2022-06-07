@@ -23,10 +23,12 @@
   }
 
   function getBooksByUrl(url: string) {
+    console.log(url);
     throw new Error('Function not implemented.');
   }
 
   function getSquareArea(side: number) {
+    console.log(side)
     throw new Error('Function not implemented.');
   }
 
